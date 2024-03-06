@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #a6e4e9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: rgb(7, 89, 136);
+  }
+  
+  button {
+    padding: 30px 80px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block; /* Adicionado para posicionar os botões lado a lado */
+  }
+  
+  .iniciar {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+  .pausar {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  .tempo {
+    font-size: 24px;
+    display: block;
+    margin-top: 20px;
+    color: rgb(3, 19, 32);
+  }
+  
